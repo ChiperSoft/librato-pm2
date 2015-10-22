@@ -1,0 +1,29 @@
+{
+  "name": "librato-pm2",
+  "version": "1.0.0",
+  "description": "App for integrating pm2 stats into librato",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarvis Badgley <chiper@chipersoft.com> (http://chipersoft.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiperSoft/librato-pm2.git"
+  },
+  "keywords": [
+    "metrics",
+    "librato",
+    "pm2",
+    "statsd",
+    "process"
+  ],
+  "dependencies": {
+    "bluebird": "~2.10.2",
+    "librato-node": "~4.0.2",
+    "pm2": "~0.15.7",
+    "rc": "~1.1.2"
+  }
+}
